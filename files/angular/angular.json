@@ -1,0 +1,22 @@
+{
+  "sourceRoot": "src",
+  "prefix": "",
+  "architect": {
+    "build": {
+      "options": {
+        "assets": ["src/.htaccess", "src/favicon.ico", "src/assets"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["src/scss"]
+        }
+      }
+    },
+    "test": {
+      "options": {
+        "assets": ["src/.htaccess", "src/favicon.ico", "src/assets"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["src/scss"]
+        }
+      }
+    }
+  }
+}

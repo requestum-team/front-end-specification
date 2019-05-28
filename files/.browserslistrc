@@ -1,0 +1,5 @@
+> 5%
+Last 2 versions
+ie >= 11
+not ie_mob <= 11
+not op_mini all

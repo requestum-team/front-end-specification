@@ -119,24 +119,13 @@
 ---      | ---      | ---   | ---      | ---      | ---      |
 Last 2 ✔ | Last 2 ✔ | 11+ ✔ | Last 2 ✔ | Last 2 ✔ | Last 2 ✔ |
 
-### [Brawser list](https://github.com/browserslist/browserslist) configuration
-
-```json
-"browserslist": [
-  "> 5%",
-  "Last 2 versions",
-  "ie >= 11",
-  "not ie_mob <= 11",
-  "not op_mini all"
-]
-```
-
 ## Base setup
 
 ### .files
 
 - [.gitignore](files/.gitignore)
 - [.*lint](#code-linting)
+- [.browserslistrc](files/.browserslistrc) - файл конфига для [Browsers list](https://github.com/browserslist/browserslist)
 - .env - Описывает переменные окружения для node.js проектов
 - .babelrc
 - [.editorconfig](files/.editorconfig) - Синхронизирует настройки редакторов. Hужно установить [плагин](http://editorconfig.org/#download) для своего редактора, если его нет.
@@ -247,6 +236,10 @@ npm i -D eslint-plugin-react
 ```
 
 В проекте используется [файл](/files/react/.eslintrc) конфигураций ESLint для React приложений.
+
+### Angular
+
+Полезности для упрощения жизни на Angular проекте можно найти [здесь](/files/code-style-addons/README.md)
 
 ### Additional code style conventions
 
