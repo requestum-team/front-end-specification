@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "extends": ["airbnb-base/legacy", "plugin:react/recommended"],
   "parser": "babel-eslint",
@@ -10,7 +11,7 @@
       "jsx": true
     }
   },
-  "plugins": ["compat", "react"],
+  "plugins": ["compat", "react", "jest"],
   "rules": {
     "compat/compat": "warn",
 
