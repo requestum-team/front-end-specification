@@ -4,6 +4,12 @@
     "plugin:vue/essential",
     "@vue/standard"
   ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
   "rules": {
     "semi": [
       "error",
