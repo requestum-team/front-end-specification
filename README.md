@@ -239,7 +239,7 @@ npm i -D eslint-plugin-react
 
 ### Angular
 
-Полезности для упрощения жизни на Angular проекте можно найти [здесь](/files/code-style-addons/README.md)
+Полезности для упрощения жизни на Angular проекте можно найти [здесь](/files/angular/README.md)
 
 ### Additional code style conventions
 
