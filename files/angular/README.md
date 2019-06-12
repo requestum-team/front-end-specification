@@ -1,6 +1,6 @@
 ## Angular cheat sheets
 
-### Independent app config
+### Runtime Environment (Runtime app config)
 
 Создание независимого файла конфигурации для Angular приложения необходимо чтобы отвязаться от 
 процесса билда в случае когда надо деплоить код на различные инстансы с различными переменными 
