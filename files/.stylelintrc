@@ -234,6 +234,7 @@
         "font-family"
       ],
       {
+        "disableFix": true,
         "ignoreKeywords": ["currentColor", "transparent", "inherit"]
       }
     ],
