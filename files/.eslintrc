@@ -3,12 +3,11 @@
     "browser": true,
     "es6": true
   },
-  "extends": "airbnb-base/legacy",
+  "extends": ["airbnb-base/legacy", "plugin:compat/recommended", "prettier"],
   "parser": "babel-eslint",
   "plugins": ["compat"],
   "rules": {
     "compat/compat": "warn",
-
     "no-plusplus": "off",
     "semi": [
       "error",

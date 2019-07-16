@@ -1,8 +1,9 @@
 {
   "root": true,
   "extends": [
+    "plugin:compat/recommended",
     "plugin:vue/essential",
-    "@vue/standard"
+    "@vue/prettier"
   ],
   "env": {
     "node": true
@@ -10,15 +11,14 @@
   "parserOptions": {
     "parser": "babel-eslint"
   },
+  "plugins": ["compat"],
   "rules": {
+    "compat/compat": "warn",
     "semi": [
       "error",
       "always"
     ],
     "indent": "off",
-    "vue/script-indent": ["error", 2, {
-      "baseIndent": 1
-    }],
     "no-plusplus": "off",
     "no-param-reassign": "off",
     "no-use-before-define": ["error", {
@@ -26,6 +26,9 @@
       "classes": false
     }],
     "standard/no-callback-literal": "off",
-    "no-mixed-operators": "off"
+    "class-methods-use-this": "warn",
+    "no-mixed-operators": ["error", {
+      "allowSamePrecedence": true
+    }]
   }
 }
