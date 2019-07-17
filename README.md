@@ -123,7 +123,7 @@ Last 2 ✔ | Last 2 ✔ | 11+ ✔ | Last 2 ✔ | Last 2 ✔ | Last 2 ✔ |
 
 ### .files
 
-- [.gitignore](files/.gitignore)
+- [.gitignore](files/.gitignore.example)
 - [.*lint](#code-linting)
 - [.browserslistrc](files/.browserslistrc) - файл конфига для [Browsers list](https://github.com/browserslist/browserslist)
 - .env - Описывает переменные окружения для node.js проектов
