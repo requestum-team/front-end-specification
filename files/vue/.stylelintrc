@@ -110,7 +110,7 @@
     "function-url-quotes": "always",
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
-    "string-quotes": "single",
+    "string-quotes": "double",
     "length-zero-no-unit": true,
     "unit-case": "lower",
     "value-keyword-case": "lower",
@@ -235,7 +235,7 @@
       ],
       {
         "disableFix": true,
-        "ignoreKeywords": ["currentColor", "transparent", "inherit"]
+        "ignoreKeywords": ["currentColor", "transparent", "inherit", "none"]
       }
     ],
     "plugin/z-index-value-constraint": {
