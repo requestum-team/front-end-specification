@@ -1,0 +1,22 @@
+{
+  "useTaobaoRegistry": false,
+  "presets": {
+    "vue": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "standard",
+          "lintOn": [
+            "save",
+            "commit"
+          ]
+        },
+        "@vue/cli-plugin-unit-jest": {}
+      },
+      "router": true,
+      "routerHistoryMode": true,
+      "cssPreprocessor": "node-sass"
+    }
+  }
+}
