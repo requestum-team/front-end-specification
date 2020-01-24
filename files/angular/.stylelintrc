@@ -30,7 +30,7 @@
     "declaration-block-no-shorthand-property-overrides": true,
     "block-no-empty": true,
     "selector-pseudo-class-no-unknown": true,
-    "selector-pseudo-element-no-unknown": true,
+    "selector-pseudo-element-no-unknown": [true, {"ignorePseudoElements": ["/ng/"]}],
     "selector-type-no-unknown": true,
     "media-feature-name-no-unknown": true,
     "at-rule-no-unknown": [
@@ -113,7 +113,6 @@
     "string-quotes": "double",
     "length-zero-no-unit": true,
     "unit-case": "lower",
-    "value-keyword-case": "lower",
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
@@ -207,7 +206,7 @@
     "comment-whitespace-inside": "always",
     "indentation": 2,
     "max-empty-lines": 1,
-    "max-line-length": 120,
+    "max-line-length": 140,
     "no-eol-whitespace": true,
     "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-else-closing-brace-space-after": "always-intermediate",
@@ -240,7 +239,7 @@
     ],
     "plugin/z-index-value-constraint": {
       "min": 1,
-      "max": 100
+      "max": 1001
     }
   }
 }
