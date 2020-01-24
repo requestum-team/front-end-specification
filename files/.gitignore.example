@@ -19,6 +19,8 @@
 npm-debug.log
 testem.log
 /typings
-
-#System Files
 .DS_Store
+
+# config files
+**/config.json
+**/config.js
