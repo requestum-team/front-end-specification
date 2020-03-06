@@ -115,9 +115,9 @@
 
 Если заказчик не определил поддержку браузеров, то по умолчанию мы поддерживаем:
 
-![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome\_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox\_48x48.png) | ![IE](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge\_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera\_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)
----      | ---      | ---   | ---      | ---      | ---      |
-Last 2 ✔ | Last 2 ✔ | 11+ ✔ | Last 2 ✔ | Last 2 ✔ | Last 2 ✔ |
+![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome\_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox\_48x48.png) |![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge\_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera\_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)
+---      | ---      | ---      | ---      | ---      |
+Last 2 ✔ | Last 2 ✔ | Last 2 ✔ | Last 2 ✔ | Last 2 ✔ |
 
 ## Base setup
 
@@ -155,11 +155,10 @@ package.json находится в корневой директории и яв
     "name": "version"
   },
   "browserslist": [
-    "> 5%",
-    "Last 2 versions",
-    "ie >= 11",
+    "> 2% and Last 2 versions and not ie 11",
     "not ie_mob <= 11",
-    "not op_mini all"
+    "not op_mini all",
+    "not dead"
   ]
 }
 ```
