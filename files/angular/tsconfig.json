@@ -19,22 +19,24 @@
       "@app/*": ["src/app/*"],
       "@misc/*": ["src/app/misc/*"],
       "@env/*": ["src/environments/*"],
-      "@shared/*": ["src/app/shared/*"],
-      "@views/*": ["src/app/views/*"],
+      "@shared/*": ["src/app/common/shared/*"],
+      "@layouts/*": ["src/app/common/modules/layouts/*"],
+      "@forms/*": ["src/app/common/modules/forms/*"],
+      "@modals/*": ["src/app/common/modules/modals/*"],
       "@pipes/*": ["src/app/pipes/*"],
       "@models/*": ["src/app/models/*"],
       "@directives/*": ["src/app/directives/*"],
       "@interceptors/*": ["src/app/interceptors/*"],
       "@services/*": ["src/app/services/*"],
-      "@components/*": ["src/app/components/*"],
       "@resolvers/*": ["src/app/resolvers/*"],
       "@guards/*": ["src/app/guards/*"],
       "@matchers/*": ["src/app/matchers/*"],
-      "@modules/*": ["src/app/modules/*"]
+      "@views/*": ["src/app/views/*"]
     },
     "lib": ["es2018", "dom"]
   },
   "angularCompilerOptions": {
+    "strictTemplates": true,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   }
