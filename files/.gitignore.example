@@ -22,5 +22,7 @@ testem.log
 .DS_Store
 
 # config files
+**/token.json
+**/token.*.json
 **/config.json
 **/config.js

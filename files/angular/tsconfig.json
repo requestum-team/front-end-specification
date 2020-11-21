@@ -31,7 +31,7 @@
       "@resolvers/*": ["src/app/resolvers/*"],
       "@guards/*": ["src/app/guards/*"],
       "@matchers/*": ["src/app/matchers/*"],
-      "@views/*": ["src/app/views/*"]
+      "@modules/*": ["src/app/modules/*"]
     },
     "lib": ["es2018", "dom"]
   },
