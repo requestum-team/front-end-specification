@@ -4,18 +4,20 @@
   "architect": {
     "build": {
       "options": {
-        "assets": ["src/.htaccess", "src/favicon.ico", "src/assets"],
+        "assets": ["src/.htaccess", "src/default.conf", "src/favicon.ico", "src/assets"],
         "stylePreprocessorOptions": {
           "includePaths": ["src/scss"]
-        }
+        },
+        "allowedCommonJsDependencies": ["class-transformer"]
       }
     },
     "test": {
       "options": {
-        "assets": ["src/.htaccess", "src/favicon.ico", "src/assets"],
+        "assets": ["src/.htaccess", "src/default.conf", "src/favicon.ico", "src/assets"],
         "stylePreprocessorOptions": {
           "includePaths": ["src/scss"]
-        }
+        },
+        "allowedCommonJsDependencies": ["class-transformer"]
       }
     }
   }
