@@ -5,8 +5,7 @@
   "plugins": [
     "stylelint-scss",
     "stylelint-no-unsupported-browser-features",
-    "stylelint-declaration-strict-value",
-    "stylelint-z-index-value-constraint"
+    "stylelint-declaration-strict-value"
   ],
   "rules": {
     "plugin/no-unsupported-browser-features": [true, {
@@ -237,10 +236,6 @@
         "disableFix": true,
         "ignoreKeywords": ["currentColor", "transparent", "inherit", "none"]
       }
-    ],
-    "plugin/z-index-value-constraint": {
-      "min": 1,
-      "max": 100
-    }
+    ]
   }
 }
