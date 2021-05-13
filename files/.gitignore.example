@@ -26,3 +26,4 @@ testem.log
 **/token.*.json
 **/config.json
 **/config.js
+!/config/**/*
