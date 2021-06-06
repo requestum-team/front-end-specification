@@ -16,8 +16,7 @@
         "assets": ["src/.htaccess", "src/default.conf", "src/favicon.ico", "src/assets"],
         "stylePreprocessorOptions": {
           "includePaths": ["src/scss"]
-        },
-        "allowedCommonJsDependencies": ["class-transformer"]
+        }
       }
     }
   }
